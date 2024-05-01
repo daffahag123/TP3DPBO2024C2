@@ -41,3 +41,5 @@ Terdapat proses Create, Read, Update, dan Delete (CRUD) data pada setiap tabel. 
 - UPDATE: Untuk memperbarui data pada tabel Pekerjaan, digunakan fungsi updatePekerjaan($id, $data) yang terdapat dalam file Pekerjaan.php. Proses ini terhubung dengan halaman ubah_pekerjaan.php dan template skin_tambah_ubah.html. Pengguna dapat mengedit informasi pekerjaan yang sudah ada.
 - DELETE: Data dari tabel Pekerjaan dapat dihapus menggunakan fungsi deletePekerjaan($id) yang terdapat dalam file Pekerjaan.php. Proses ini terhubung dengan halaman pekerjaan.php dan template skin.html. Ketika pengguna mengklik mengklik tombol icon "Sampah" pada halaman pekerjaan.php, data pekerjaan yang dipilih akan dihapus dari tabel.
 
+Terdapat fungsi pencarian dan pengurutan data pada semua tabel
+
