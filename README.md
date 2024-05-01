@@ -45,3 +45,30 @@ Terdapat fungsi pencarian dan pengurutan data pada semua tabel:
 - Fungsi Pencarian: Mencari nama karyawan terdapat fungsi searchKaryawan($keyword) pada Karyawan.php, mencari nama perusahaan terdapat fungsi searchPerusahaan($keyword) pada Perusahaan.php, dan  mencari nama pekerjaan terdapat fungsi searchPekerjaan($keyword) pada Pekerjaan.php.
 - Fungsi Pengurutan: Mengurutkan data tabel Karyawan/Perusahaan/Pekerjaan dengan menekan tombol "Urutkan Nama Berdasarkan" dengan mimilih Ascending atau Descending untuk pengurutan tampilannya dengan membuat fungsi filterKaryawan($sort), filterPerusahaan($sort), dan filterPekerjaan($sort).
 
+# Penjelasan Alur
+Pengguna dapat menggunakan fitur-fitur pada website yang sudah saya buat diantaranya:
+1. Halaman Home (Daftar Karyawan)
+- Create: Pengguna dapat menambahkan karyawan baru dengan mengisi data seperti foto, nama, nik, gaji, perusahaan tempat bekerja, dan pekerjaan yang dilakukan.
+- View: Pengguna dapat melihat daftar semua karyawan
+- Update: Pengguna dapat mengedit data karyawan
+- Delete: Pengguna dapat menghapus data karyawan
+- Fitur Pencarian: Pengguna dapat mencari karyawan tertentu berdasarkan nama
+- Fitur Pengurutan: Pengguna dapat mengurutkan daftar karyawan berdasarkan nama secara ascending atau descending
+  
+2. Halaman Daftar Perusahaan
+- Create: Pengguna dapat menambahkan perusahaan baru dengan mengisi data seperti nama perusahaan
+- View: Pengguna dapat melihat daftar semua perusahaan
+- Update: Pengguna dapat mengedit data perusahaan
+- Delete: Pengguna dapat menghapus data perusahaan
+- Fitur Pencarian: Pengguna dapat mencari perusahaan tertentu berdasarkan nama
+- Fitur Pengurutan: Pengguna dapat mengurutkan daftar perusahaan berdasarkan nama secara ascending atau descending
+  
+3. Halaman Daftar Pekerjaan
+- Create: Pengguna dapat menambahkan pekerjaan baru dengan mengisi data seperti nama pekerjaan
+- View: Pengguna dapat melihat daftar semua pekerjaan
+- Update: Pengguna dapat mengedit data pekerjaan
+- Delete: Pengguna dapat menghapus data pekerjaan
+- Fitur Pencarian: Pengguna dapat mencari pekerjaan tertentu berdasarkan nama
+- Fitur Pengurutan: Pengguna dapat mengurutkan daftar pekerjaan berdasarkan nama secara ascending atau descending
+
+# Dokumentasi Program
