@@ -17,6 +17,7 @@ Program ini adalah sebuah website sederhana untuk manajemen karyawan yang menggu
 3. Pekerjaan
 - Kelas ini bertanggung jawab untuk mengelola data pekerjaan
 - Setiap jenis pekerjaan memiliki atribut yaitu nama pekerjaan.
+  
 Setiap karyawan dapat bekerja di satu perusahaan (many-to-one relationship).
 Setiap karyawan memiliki satu posisi pekerjaan (many-to-one relationship).
 
