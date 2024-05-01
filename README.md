@@ -72,6 +72,35 @@ Pengguna dapat menggunakan fitur-fitur pada website yang sudah saya buat diantar
 - Fitur Pengurutan: Pengguna dapat mengurutkan daftar pekerjaan berdasarkan nama secara ascending atau descending
 
 # Dokumentasi Program
+Tabel Karyawan, memiliki beberapa halaman:
 1. Halaman Home
 ![image](https://github.com/daffahag123/TP3DPBO2024C2/assets/135239333/10130812-c624-40ff-8966-cc209e641343)
+2. Halaman Detail Karyawan
+![image](https://github.com/daffahag123/TP3DPBO2024C2/assets/135239333/020e7e64-d108-4e6e-855b-0469b61f8b30)
+3. Halaman Tambah Karyawan
+![image](https://github.com/daffahag123/TP3DPBO2024C2/assets/135239333/d9cb37ed-8968-4616-8833-697d89d49fe6)
+4. Halaman Ubah Karyawan
+![image](https://github.com/daffahag123/TP3DPBO2024C2/assets/135239333/eaa33469-d5e3-455b-b852-92e784071609)
+
+Tabel Perusahaan, memiliki beberapa halaman:
+1. Halaman Daftar Perusahaan
+![image](https://github.com/daffahag123/TP3DPBO2024C2/assets/135239333/944aaeb3-7acc-45af-8670-15395c7666de)
+2. Halaman Tambah Perusahaan
+![image](https://github.com/daffahag123/TP3DPBO2024C2/assets/135239333/ca373529-73eb-415c-ba5a-805e2483e6b5)
+3. Halaman Ubah Perusahaan
+![image](https://github.com/daffahag123/TP3DPBO2024C2/assets/135239333/94313302-eacb-4954-a762-6259888106e2)
+
+Tabel Pekerjaan, memiliki beberapa halaman:
+1. Halaman Daftar Pekerjaan
+![image](https://github.com/daffahag123/TP3DPBO2024C2/assets/135239333/2146ba68-359b-4964-95a1-59096d064e7e)
+2. Halaman Tambah Pekerjaan
+![image](https://github.com/daffahag123/TP3DPBO2024C2/assets/135239333/ab4d7f3c-25b5-4d73-889f-ae98ec70c42a)
+3. Halaman Ubah Pekerjaan
+![image](https://github.com/daffahag123/TP3DPBO2024C2/assets/135239333/e8735ed8-8510-4727-a928-7e4361a89c80)
+
+
+
+
+
+
 
