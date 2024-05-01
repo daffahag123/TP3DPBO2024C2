@@ -17,14 +17,25 @@ Program ini adalah sebuah website sederhana untuk manajemen karyawan yang menggu
 3. Pekerjaan
 - Kelas ini bertanggung jawab untuk mengelola data pekerjaan
 - Setiap jenis pekerjaan memiliki atribut yaitu nama pekerjaan.
+Setiap karyawan dapat bekerja di satu perusahaan (many-to-one relationship).
+Setiap karyawan memiliki satu posisi pekerjaan (many-to-one relationship).
 
 Terdapat proses Create, Read, Update, dan Delete data pada setiap tabel:
 1. CRUD Karyawan
 - CREATE : Untuk menambahkan data baru pada tabel Karyawan, digunakan fungsi addKaryawan() yang terdapat dalam file Karyawan.php. Proses ini terhubung dengan halaman tambah_karyawan.php dan template skin_tambah_ubah.html. Pengguna dapat mengisi formulir dengan informasi tentang karyawan yang ingin ditambahkan.
-- READ : Untuk membaca data dari tabel Karyawan, kita perlu menggunakan fungsi getKaryawanJoin() yang terdapat dalam file Karyawan.php. Proses ini terhubung dengan halaman index.php dan template skin.html. Proses pembacaan data untuk menampilkan daftar karyawan.
+- READ : Untuk membaca data dari tabel Karyawan, kita perlu menggunakan fungsi getKaryawanJoin() yang terdapat dalam file Karyawan.php. Proses ini terhubung dengan halaman index.php dan template skin.html. Proses pembacaan data untuk menampilkan daftar karyawan kepada pengguna.
 - UPDATE : Untuk memperbarui data pada tabel Karyawan, digunakan fungsi updateKaryawan($id, $data, $file) yang terdapat dalam file Karyawan.php. Proses ini terhubung dengan halaman ubah_karyawan.php dan template skin_tambah_ubah.html. Pengguna dapat mengedit informasi karyawan yang sudah ada.
 - DELETE : Untuk menghapus data dari tabel Karyawan, digunakan fungsi deleteKaryawan($id) yang terdapat dalam file Karyawan.php. Proses ini terhubung dengan halaman index.php dan template skin.html. Ketika pengguna mengklik tombol "Hapus Data" pada halaman detail.php, maka data karyawan yang dipilih akan dihapus dari tabel.
   
 2. CRUD Perusahaan
+- CREATE: Untuk menambah data baru pada tabel Perusahaan, digunakan fungsi addPerusahaan() yang terdapat dalam file Perusahaan.php. Proses ini terhubung dengan halaman tambah_perusahaan.php dan template skin_tambah_ubah.html. Pengguna dapat mengisi formulir dengan informasi perusahaan yang ingin ditambahkan.
+- READ: Pembacaan data dari tabel Perusahaan dilakukan menggunakan fungsi getPerusahaan() yang terdapat dalam file Perusahaan.php. Proses ini terhubung dengan halaman perusahaan.php dan template skin.html. Data perusahaan dibaca untuk menampilkan daftar perusahaan kepada pengguna.
+- UPDATE: Untuk memperbarui data pada tabel Perusahaan, digunakan fungsi updatePerusahaan($id, $data) yang terdapat dalam file Perusahaan.php. Proses ini terhubung dengan halaman ubah_perusahaan.php dan template skin_tambah_ubah.html. Pengguna dapat mengedit informasi perusahaan yang sudah ada.
+- DELETE: Data dari tabel Perusahaan dapat dihapus menggunakan fungsi deletePerusahaan($id) yang terdapat dalam file Perusahaan.php. Proses ini terhubung dengan halaman perusahaan.php dan template skin.html. Ketika pengguna mengklik tombol icon "Sampah" pada halaman perusahaan.php, data perusahaan yang dipilih akan dihapus dari tabel.
+  
 3. CRUD Pekerjaan
+- CREATE: Untuk menambah data baru pada tabel Pekerjaan, digunakan fungsi addPekerjaan() yang terdapat dalam file Pekerjaan.php. Proses ini terhubung dengan halaman tambah_pekerjaan.php dan template skin_tambah_ubah.html. Pengguna dapat mengisi formulir dengan informasi pekerjaan yang ingin ditambahkan.
+- READ: Pembacaan data dari tabel Pekerjaan dilakukan menggunakan fungsi getPekerjaan() yang terdapat dalam file Pekerjaan.php. Proses ini terhubung dengan halaman pekerjaan.php dan template skin.html. Data pekerjaan dibaca untuk menampilkan daftar pekerjaan kepada pengguna.
+- UPDATE: Untuk memperbarui data pada tabel Pekerjaan, digunakan fungsi updatePekerjaan($id, $data) yang terdapat dalam file Pekerjaan.php. Proses ini terhubung dengan halaman ubah_pekerjaan.php dan template skin_tambah_ubah.html. Pengguna dapat mengedit informasi pekerjaan yang sudah ada.
+- DELETE: Data dari tabel Pekerjaan dapat dihapus menggunakan fungsi deletePekerjaan($id) yang terdapat dalam file Pekerjaan.php. Proses ini terhubung dengan halaman pekerjaan.php dan template skin.html. Ketika pengguna mengklik mengklik tombol icon "Sampah" pada halaman pekerjaan.php, data pekerjaan yang dipilih akan dihapus dari tabel.
 
