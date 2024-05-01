@@ -19,6 +19,7 @@ Program ini adalah sebuah website sederhana untuk manajemen karyawan yang menggu
 - Setiap jenis pekerjaan memiliki atribut yaitu nama pekerjaan.
   
 Setiap karyawan dapat bekerja di satu perusahaan (many-to-one relationship).
+
 Setiap karyawan memiliki satu posisi pekerjaan (many-to-one relationship).
 
 Terdapat proses Create, Read, Update, dan Delete data pada setiap tabel:
