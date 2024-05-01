@@ -72,3 +72,6 @@ Pengguna dapat menggunakan fitur-fitur pada website yang sudah saya buat diantar
 - Fitur Pengurutan: Pengguna dapat mengurutkan daftar pekerjaan berdasarkan nama secara ascending atau descending
 
 # Dokumentasi Program
+1. Halaman Home
+![image](https://github.com/daffahag123/TP3DPBO2024C2/assets/135239333/10130812-c624-40ff-8966-cc209e641343)
+
