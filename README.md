@@ -22,7 +22,7 @@ Hubungan Antar Tabel:
 - Setiap karyawan dapat bekerja di satu perusahaan (many-to-one relationship). Perusahaan merupakan foreign-key dari Karyawan.
 - Setiap karyawan memiliki satu posisi pekerjaan (many-to-one relationship). Pekerjaan merupakan foreign-key dari Karyawan.
 
-Terdapat proses Create, Read, Update, dan Delete (CRUD) data pada setiap tabel. Konsep CRUD merupakan prinsip dasar dalam pengelolaan data yang meliputi pembuatan (Create), pembacaan (Read), pembaruan (Update), dan penghapusan (Delete) data. Setiap tabel dalam sistem memiliki fitur CRUD yang memungkinkan pengguna untuk melakukan berbagai operasi terkait dengan data yang disimpan. Dengan adanya fitur CRUD ini, pengguna dapat dengan mudah menambahkan, melihat, mengubah, dan menghapus data sesuai kebutuhan.
+Terdapat proses Create, Read, Update, dan Delete (CRUD) data pada setiap tabel:
 1. CRUD Karyawan
 - CREATE : Untuk menambahkan data baru pada tabel Karyawan, digunakan fungsi addKaryawan() yang terdapat dalam file Karyawan.php. Proses ini terhubung dengan halaman tambah_karyawan.php dan template skin_tambah_ubah.html. Pengguna dapat mengisi formulir dengan informasi tentang karyawan yang ingin ditambahkan.
 - READ : Untuk membaca data dari tabel Karyawan, kita perlu menggunakan fungsi getKaryawanJoin() yang terdapat dalam file Karyawan.php. Proses ini terhubung dengan halaman index.php dan template skin.html. Proses pembacaan data untuk menampilkan daftar karyawan kepada pengguna.
@@ -41,5 +41,7 @@ Terdapat proses Create, Read, Update, dan Delete (CRUD) data pada setiap tabel. 
 - UPDATE: Untuk memperbarui data pada tabel Pekerjaan, digunakan fungsi updatePekerjaan($id, $data) yang terdapat dalam file Pekerjaan.php. Proses ini terhubung dengan halaman ubah_pekerjaan.php dan template skin_tambah_ubah.html. Pengguna dapat mengedit informasi pekerjaan yang sudah ada.
 - DELETE: Data dari tabel Pekerjaan dapat dihapus menggunakan fungsi deletePekerjaan($id) yang terdapat dalam file Pekerjaan.php. Proses ini terhubung dengan halaman pekerjaan.php dan template skin.html. Ketika pengguna mengklik mengklik tombol icon "Sampah" pada halaman pekerjaan.php, data pekerjaan yang dipilih akan dihapus dari tabel.
 
-Terdapat fungsi pencarian dan pengurutan data pada semua tabel
+Terdapat fungsi pencarian dan pengurutan data pada semua tabel:
+- Fungsi Pencarian: Mencari nama karyawan terdapat fungsi searchKaryawan($keyword) pada Karyawan.php, mencari nama perusahaan terdapat fungsi searchPerusahaan($keyword) pada Perusahaan.php, dan  mencari nama pekerjaan terdapat fungsi searchPekerjaan($keyword) pada Pekerjaan.php.
+- Fungsi Pengurutan: Mengurutkan data tabel Karyawan/Perusahaan/Pekerjaan dengan menekan tombol "Urutkan Nama Berdasarkan" dengan mimilih Ascending atau Descending untuk pengurutan tampilannya dengan membuat fungsi filterKaryawan($sort), filterPerusahaan($sort), dan filterPekerjaan($sort).
 
