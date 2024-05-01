@@ -17,10 +17,10 @@ Program ini adalah sebuah website sederhana untuk manajemen karyawan yang menggu
 3. Pekerjaan
 - Kelas ini bertanggung jawab untuk mengelola data pekerjaan
 - Setiap jenis pekerjaan memiliki atribut yaitu nama pekerjaan.
-  
-Setiap karyawan dapat bekerja di satu perusahaan (many-to-one relationship).
 
-Setiap karyawan memiliki satu posisi pekerjaan (many-to-one relationship).
+Hubungan Antar Tabel:
+- Setiap karyawan dapat bekerja di satu perusahaan (many-to-one relationship). Perusahaan merupakan foreign-key dari Karyawan.
+- Setiap karyawan memiliki satu posisi pekerjaan (many-to-one relationship). Pekerjaan merupakan foreign-key dari Karyawan.
 
 Terdapat proses Create, Read, Update, dan Delete data pada setiap tabel:
 1. CRUD Karyawan
